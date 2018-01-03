@@ -1,0 +1,17 @@
+Compare
+---
+responses:
+  "500":
+    description: something broke
+    examples:
+      text/html:
+        <html><body>Serviço indisponível.</body></html>
+  "200":
+    description: successful operation
+    content:
+      application/json:
+        schema:
+          propeties:
+            success:
+              type: boolean
+          #"$ref": "#/definitions/CompareResponse"

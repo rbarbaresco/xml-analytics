@@ -1,0 +1,10 @@
+Main spec
+---
+definitions:
+  CompareResponse:
+    properties:
+      info:
+        type: object
+        properties:
+          success:
+            type: boolean
